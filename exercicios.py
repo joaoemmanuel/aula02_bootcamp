@@ -38,13 +38,16 @@
 # print("O resultado da soma é:", resultado_soma)
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
-num1 = float(input("Insira o primeiro número: "))
-num2 = float(input("Insira o segundo número: "))
-media = (num1+num2)/2
-print("O média é:", media)
+# num1 = float(input("Insira o primeiro número: "))
+# num2 = float(input("Insira o segundo número: "))
+# media = (num1+num2)/2
+# print("O média é:", media)
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
-
+base = float(input("Insira a base: "))
+exp = float(input("Insira o expoente: "))
+resultado_pot = base ** exp
+print("O resultado da potência é:", resultado_pot)
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 
