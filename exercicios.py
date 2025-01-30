@@ -50,12 +50,17 @@
 # print("O resultado da potência é:", resultado_pot)
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
-celsius = float(input("Insira a temperatura a ser convertida: "))
-fah = (celsius * 1.8) + 32
-print(f"{celsius}°C equivale a {fah}°F")
+# celsius = float(input("Insira a temperatura a ser convertida: "))
+# fah = (celsius * 1.8) + 32
+# print(f"{celsius}°C equivale a {fah}°F")
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
-
+#A fórmula para calcular a área do círculo é A = PI * R²
+CONST_PI = 3.14
+CONST_POT = 2
+raio = float(input("Informe o raio do círculo: "))
+area = CONST_PI * (raio**2)
+print(f"A área de um círculo cujo raio é de {raio}cm é de {area}cm")
 
 # #### Strings ('str')
 
