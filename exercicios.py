@@ -56,18 +56,27 @@
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 #A fórmula para calcular a área do círculo é A = PI * R²
-CONST_PI = 3.14
-CONST_POT = 2
-raio = float(input("Informe o raio do círculo: "))
-area = CONST_PI * (raio**2)
-print(f"A área de um círculo cujo raio é de {raio}cm é de {area}cm")
+# CONST_PI = 3.14
+# CONST_POT = 2
+# raio = float(input("Informe o raio do círculo: "))
+# area = CONST_PI * (raio**2)
+# print(f"A área de um círculo cujo raio é de {raio}cm é de {area}cm")
 
 # #### Strings ('str')
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+texto = str(input("Digite um texto: "))
+print(texto.upper())
+
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+
+
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+
+
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+
+
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
 # #### Booleanos ('bool')
