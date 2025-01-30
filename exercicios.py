@@ -70,7 +70,7 @@
 
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 nome = str(input("Digite seu nome completo: "))
-print(nome.lower)
+print(nome.lower())
 
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 
