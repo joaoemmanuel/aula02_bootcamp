@@ -11,11 +11,15 @@
 # resto = num%CONST_DIV
 # print("O resto da divisão é:", resto)
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+# num1 = int(input("Insira o primeiro número: "))
+# num2 = int(input("Insira o segundo número: "))
+# resultado_mult = num1*num2
+# print("O resultado da multiplicação é:", resultado_mult)
+# 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 num1 = int(input("Insira o primeiro número: "))
 num2 = int(input("Insira o segundo número: "))
-resultado_mult = num1*num2
-print("O resultado da multiplicação é:", resultado_mult)
-# 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+resultado_div = num1//num2
+print("O resultado da multiplicação é:", resultado_div)
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
 # #### Números de Ponto Flutuante ('float')
