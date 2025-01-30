@@ -32,13 +32,16 @@
 # #### Números de Ponto Flutuante ('float')
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
-num1 = float(input("Insira o primeiro número: "))
-num2 = float(input("Insira o segundo número: "))
-resultado_soma = num1+num2
-print("O resultado da soma é:", resultado_soma)
+# num1 = float(input("Insira o primeiro número: "))
+# num2 = float(input("Insira o segundo número: "))
+# resultado_soma = num1+num2
+# print("O resultado da soma é:", resultado_soma)
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
-
+num1 = float(input("Insira o primeiro número: "))
+num2 = float(input("Insira o segundo número: "))
+media = (num1+num2)/2
+print("O média é:", media)
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 
