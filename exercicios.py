@@ -65,11 +65,12 @@
 # #### Strings ('str')
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
-texto = str(input("Digite um texto: "))
-print(texto.upper())
+# texto = str(input("Digite um texto: "))
+# print(texto.upper())
 
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
-
+nome = str(input("Digite seu nome completo: "))
+print(nome.lower)
 
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 
