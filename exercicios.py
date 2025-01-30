@@ -6,11 +6,15 @@
 # resultado_soma = num1+num2
 # print("O resultado da soma é:", resultado_soma)
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-CONST_DIV = 5
-num = int(input("Insira um número: "))
-resto = num%CONST_DIV
-print("O resto da divisão é:", resto)
+# CONST_DIV = 5
+# num = int(input("Insira um número: "))
+# resto = num%CONST_DIV
+# print("O resto da divisão é:", resto)
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+num1 = int(input("Insira o primeiro número: "))
+num2 = int(input("Insira o segundo número: "))
+resultado_mult = num1*num2
+print("O resultado da multiplicação é:", resultado_mult)
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
