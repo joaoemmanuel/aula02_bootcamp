@@ -77,13 +77,16 @@
 # print(frase.strip())
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-data = str(input("Insira a data no formato DD/MM/YYYY: "))
-dia = data.split("/")[0]
-mes = data.split("/")[1]
-ano = data.split("/")[2]
-print(f"A data informada refere-se ao dia {dia} do mês {mes} do ano {ano}")
+# data = str(input("Insira a data no formato DD/MM/YYYY: "))
+# dia = data.split("/")[0]
+# mes = data.split("/")[1]
+# ano = data.split("/")[2]
+# print(f"A data informada refere-se ao dia {dia} do mês {mes} do ano {ano}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+frase1 = str(input("Digite sua primeira frase: "))
+frase2 = str(input("Digite sua segunda frase: "))
+print(frase1 + frase2)
 
 # #### Booleanos ('bool')
 
