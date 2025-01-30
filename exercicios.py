@@ -16,12 +16,14 @@
 # resultado_mult = num1*num2
 # print("O resultado da multiplicação é:", resultado_mult)
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-num1 = int(input("Insira o primeiro número: "))
-num2 = int(input("Insira o segundo número: "))
-resultado_div = num1//num2
-print("O resultado da multiplicação é:", resultado_div)
+# num1 = int(input("Insira o primeiro número: "))
+# num2 = int(input("Insira o segundo número: "))
+# resultado_div = num1//num2
+# print("O resultado da divisão é:", resultado_div)
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-
+num = int(input("Insira o número: "))
+resultado_pot = num**2
+print("O resultado da potenciação é:", resultado_pot)
 # #### Números de Ponto Flutuante ('float')
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
