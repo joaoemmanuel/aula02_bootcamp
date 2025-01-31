@@ -84,16 +84,27 @@
 # print(f"A data informada refere-se ao dia {dia} do mês {mes} do ano {ano}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
-frase1 = str(input("Digite sua primeira frase: "))
-frase2 = str(input("Digite sua segunda frase: "))
-print(frase1 + frase2)
+# frase1 = str(input("Digite sua primeira frase: "))
+# frase2 = str(input("Digite sua segunda frase: "))
+# print(frase1 + frase2)
 
 # #### Booleanos ('bool')
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+opcao1 = True
+opcao2 = True
+res = opcao1 and opcao2
+print(res)
+
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
 # #### try-except e if
