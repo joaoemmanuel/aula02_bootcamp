@@ -114,15 +114,29 @@
 # print(f"Os números são iguais? {res}")
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
-valor1 = int(input("Informe um valor numérico qualquer: "))
-valor2 = int(input("Informe um valor numérico qualquer: "))
-res = valor1 != valor2
-print(f"Os números são diferentes? {res}")
+# valor1 = int(input("Informe um valor numérico qualquer: "))
+# valor2 = int(input("Informe um valor numérico qualquer: "))
+# res = valor1 != valor2
+# print(f"Os números são diferentes? {res}")
 
 # #### try-except e if
 
 # 21: Conversor de Temperatura
+try:
+    celsius = float(input("Insira a temperatura a ser convertida: "))
+    fah = (celsius * 1.8) + 32
+    print(f"{celsius}°C equivale a {fah}°F")
+except ValueError:
+    print("Insira um número válido para a temperatura.")
+    
+
 # 22: Verificador de Palíndromo
+
+
 # 23: Calculadora Simples
+
+
 # 24: Classificador de Números
+
+
 # 25: Conversão de Tipo com Validação
