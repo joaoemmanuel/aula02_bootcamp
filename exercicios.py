@@ -91,13 +91,16 @@
 # #### Booleanos ('bool')
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
-opcao1 = True
-opcao2 = True
-res = opcao1 and opcao2
-print(res)
+# opcao1 = True
+# opcao2 = False
+# res = opcao1 and opcao2
+# print(res)
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
-
+opcao1 = True
+opcao2 = False
+res = opcao1 or opcao2
+print(res)
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 
