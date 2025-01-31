@@ -97,13 +97,15 @@
 # print(res)
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
-opcao1 = True
-opcao2 = False
-res = opcao1 or opcao2
-print(res)
+# opcao1 = True
+# opcao2 = False
+# res = opcao1 or opcao2
+# print(res)
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
-
+opcao1 = False
+res = not opcao1
+print (res)
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 
