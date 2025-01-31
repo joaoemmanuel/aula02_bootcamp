@@ -103,12 +103,15 @@
 # print(res)
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
-opcao1 = False
-res = not opcao1
-print (res)
+# opcao1 = False
+# res = not opcao1
+# print (res)
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
-
+valor1 = int(input("Informe um valor numérico qualquer: "))
+valor2 = int(input("Informe um valor numérico qualquer: "))
+res = valor1 == valor2
+print(f"Os números são iguais? {res}")
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
