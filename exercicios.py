@@ -130,18 +130,33 @@
 #     print("Insira um número válido para a temperatura.")
   
 # 22: Verificador de Palíndromo
-palavra = input("Digite seu palíndromo: ")
-if isinstance(palavra, str):
-    formatado = palavra.replace(" ", "").lower()
-    if formatado == formatado[::-1]:
-        print("A palavra é um palíndromo")
-    else:
-        print("A palavra não é um palíndromo")
-else:
-    print("O valor informado não é uma String")
+# palavra = input("Digite seu palíndromo: ")
+# if isinstance(palavra, str):
+#     formatado = palavra.replace(" ", "").lower()
+#     if formatado == formatado[::-1]:
+#         print("A palavra é um palíndromo")
+#     else:
+#         print("A palavra não é um palíndromo")
+# else:
+#     print("O valor informado não é uma String")
 
 # 23: Calculadora Simples
-
+try:
+    num1 = float(input("Insira o primeiro número: "))
+    num2 = float(input("Insira o segundo número: "))
+    operador = input("Escolha o operador (+, -, *, /): ")
+    if operador == "+":
+        print(num1 + num2)
+    elif operador == "-":
+        print(num1 - num2)
+    elif operador == "*":
+        print(num1 * num2)
+    elif operador == "/" and num2 != 0:
+        print(num1 / num2)
+    else:
+        print("Operador inválido ou divisão por 0.")
+except ValueError:
+    print("O valor inserido não é um número.")
 
 # 24: Classificador de Números
 
