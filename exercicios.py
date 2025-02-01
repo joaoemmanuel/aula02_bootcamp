@@ -122,16 +122,23 @@
 # #### try-except e if
 
 # 21: Conversor de Temperatura
-try:
-    celsius = float(input("Insira a temperatura a ser convertida: "))
-    fah = (celsius * 1.8) + 32
-    print(f"{celsius}°C equivale a {fah}°F")
-except ValueError:
-    print("Insira um número válido para a temperatura.")
-    
-
+# try:
+#     celsius = float(input("Insira a temperatura a ser convertida: "))
+#     fah = (celsius * 1.8) + 32
+#     print(f"{celsius}°C equivale a {fah}°F")
+# except ValueError:
+#     print("Insira um número válido para a temperatura.")
+  
 # 22: Verificador de Palíndromo
-
+palavra = input("Digite seu palíndromo: ")
+if isinstance(palavra, str):
+    formatado = palavra.replace(" ", "").lower()
+    if formatado == formatado[::-1]:
+        print("A palavra é um palíndromo")
+    else:
+        print("A palavra não é um palíndromo")
+else:
+    print("O valor informado não é uma String")
 
 # 23: Calculadora Simples
 
