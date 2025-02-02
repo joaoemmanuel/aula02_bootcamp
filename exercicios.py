@@ -141,24 +141,37 @@
 #     print("O valor informado não é uma String")
 
 # 23: Calculadora Simples
-try:
-    num1 = float(input("Insira o primeiro número: "))
-    num2 = float(input("Insira o segundo número: "))
-    operador = input("Escolha o operador (+, -, *, /): ")
-    if operador == "+":
-        print(num1 + num2)
-    elif operador == "-":
-        print(num1 - num2)
-    elif operador == "*":
-        print(num1 * num2)
-    elif operador == "/" and num2 != 0:
-        print(num1 / num2)
-    else:
-        print("Operador inválido ou divisão por 0.")
-except ValueError:
-    print("O valor inserido não é um número.")
+# try:
+#     num1 = float(input("Insira o primeiro número: "))
+#     num2 = float(input("Insira o segundo número: "))
+#     operador = input("Escolha o operador (+, -, *, /): ")
+#     if operador == "+":
+#         print(num1 + num2)
+#     elif operador == "-":
+#         print(num1 - num2)
+#     elif operador == "*":
+#         print(num1 * num2)
+#     elif operador == "/" and num2 != 0:
+#         print(num1 / num2)
+#     else:
+#         print("Operador inválido ou divisão por 0.")
+# except ValueError:
+#     print("O valor inserido não é um número.")
 
 # 24: Classificador de Números
-
+try:
+    numero = int(input("Insira um número: "))
+    if numero > 0:
+        print("Número positivo.")
+    elif numero < 0:
+        print("Número negativo.")
+    else:
+        print("O número é 0.")
+    if numero % 2 == 0:
+        print("O número é par.")
+    else:
+        print("O número é ímpar.")
+except ValueError:
+    print("O valor inserido não é um número.")
 
 # 25: Conversão de Tipo com Validação
