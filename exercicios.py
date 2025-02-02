@@ -159,19 +159,28 @@
 #     print("O valor inserido não é um número.")
 
 # 24: Classificador de Números
-try:
-    numero = int(input("Insira um número: "))
-    if numero > 0:
-        print("Número positivo.")
-    elif numero < 0:
-        print("Número negativo.")
-    else:
-        print("O número é 0.")
-    if numero % 2 == 0:
-        print("O número é par.")
-    else:
-        print("O número é ímpar.")
-except ValueError:
-    print("O valor inserido não é um número.")
+# try:
+#     numero = int(input("Insira um número: "))
+#     if numero > 0:
+#         print("Número positivo.")
+#     elif numero < 0:
+#         print("Número negativo.")
+#     else:
+#         print("O número é 0.")
+#     if numero % 2 == 0:
+#         print("O número é par.")
+#     else:
+#         print("O número é ímpar.")
+# except ValueError:
+#     print("O valor inserido não é um número.")
 
 # 25: Conversão de Tipo com Validação
+entrada = str(input("Insira a sua lista de inteiros separados por vírgula: "))
+lista_str = entrada.split(",")
+lista_int = []
+try:
+    for num in lista_str:
+        lista_int.append(int(num.strip()))
+    print(f"Lista: {lista_int}")
+except ValueError:
+    print("Um dos valores informados não é inteiro")
